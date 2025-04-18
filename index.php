@@ -28,7 +28,7 @@ get_header();
 				<?php
 			endif;
 
-			/* Start the Loop */
+			/* Start the basic Loop */
 			while ( have_posts() ) :
 				the_post();
 
